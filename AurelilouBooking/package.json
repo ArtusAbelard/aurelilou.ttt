@@ -16,10 +16,13 @@
     "@mui/icons-material": "^6.3.1",
     "@mui/material": "^6.3.1",
     "@mui/styled-engine-sc": "^6.3.1",
+    "@versoly/react-taos": "^0.1.0",
     "@vitejs/plugin-vue": "^5.2.1",
     "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
     "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0",
-    "styled-components": "^6.1.14"
+    "react-router-dom": "^7.1.1",
+    "styled-components": "^6.1.14",
+    "taos": "^1.0.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",

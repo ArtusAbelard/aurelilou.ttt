@@ -17,7 +17,7 @@ export default function Navbar(props) {
     return (
         
         <AppBar className=' flex justify-center align-center bg-white' color='white' position="fixed">
-          <Toolbar className='text-black gap-9 flex justify-between bg-white'>
+          <Toolbar className='text-black gap-9 flex justify-between bg-white '>
             {/* <IconButton
               size="large"
               edge="start"
@@ -28,13 +28,13 @@ export default function Navbar(props) {
               <MenuIcon />
             </IconButton> */}
 
-            <div className='flex gap-9 w-[20rem] '>
+            <div className='flex gap-9 w-[20rem] ps-5'>
 
-            <h6 className='text-xl cursor-pointer lineunder'>Home</h6>
+            <Link className='hover:text-black' to={'/'}><h6 className='text-xl cursor-pointer lineunder font-normal'>Home</h6></Link>
 
-            <h6 className='text-xl cursor-pointer lineunder'>Booking</h6>
+            <Link className='hover:text-black' to={'/booking'}><h6 className='text-xl cursor-pointer lineunder font-normal'>Booking</h6></Link>
 
-            <h6 className='text-xl cursor-pointer lineunder'>About</h6>
+            <Link className='hover:text-black'> <h6 className='text-xl cursor-pointer lineunder font-normal'>About</h6> </Link>
 
             </div>
             
