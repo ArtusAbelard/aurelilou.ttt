@@ -30,7 +30,7 @@ export default function Navbar(props) {
 
             <div className='flex gap-9 w-[20rem] ps-5'>
 
-            <Link className='hover:text-black' to={'/'}><h6 className='text-xl cursor-pointer lineunder font-normal'>Home</h6></Link>
+            <Link className='hover:text-black' to={'/aurelilou.ttt'}><h6 className='text-xl cursor-pointer lineunder font-normal'>Home</h6></Link>
 
             <Link className='hover:text-black' to={'/booking'}><h6 className='text-xl cursor-pointer lineunder font-normal'>Booking</h6></Link>
 

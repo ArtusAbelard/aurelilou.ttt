@@ -8,7 +8,7 @@ import { createBrowserRouter, Router , RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/aurelilou.ttt',
     element: <Home></Home>,
   },
   {
